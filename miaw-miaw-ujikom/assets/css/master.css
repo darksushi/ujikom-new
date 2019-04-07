@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto');
+body{
+    margin: 0;
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    background: url('https://images.unsplash.com/photo-1466978913421-dad2ebd01d17?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=667&q=80https://images.unsplash.com/photo-1466978913421-dad2ebd01d17?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=667&q=80');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'montserrat', sans-serif;
+}
+
+/*ini adalah section satu untuk login oke hehe*/
+
+.sec-login{
+    background-color: rgba(0,0,0, 0.5); /* Black w/opacity/see-through */
+    height: 41.7em;
+    width: 100%;
+}
+
+/*Ini adalah navbarnya sayang :)*/
+header{
+    height: 5vmax;
+    width: 100%;
+    background-color: blueviolet;
+    position: fixed;
+}
+
+.wrapper{
+    margin: auto;
+    height: 4.2em;
+    width: 80%;
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-box{
+    background-color: darkmagenta;
+    height: 3em;
+    width: 2cm;
+    align-self: center;
+}
+
+.text-bg{
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: bolder;
+    display: grid;
+    background-color: brown;
+}
+
